@@ -35,15 +35,15 @@
           <li>Elements nested inside other elements are called Child Elements. The element that holds all the children elements is called the Parent element.</li>
           <li>It is important to use Semantic HTML elements as it makes it easier to read by the browser and other developers.</li>
           <li>Semantic HTML also makes sure the webpage is accessible to users who may use screen readers or other assistive technologies.</li>
-          <li>Headings help organize a page by being more prominent titles and sub-titles.</li>
+          <li>Headings help organize a page by being more prominent titles and subtitles.</li>
           <li>Order matters in headings, make sure to use h1 through h6. Only use h1 once per page.</li>
           <li>The p element wraps most text on a webpage.</li>
           <li>The ul element is for unordered lists.</li>
           <li>The ol element is for ordered lists.</li>
           <li>The li element is for list items.</li>
-          <li>The img element gives infomation about images that are displayed on the webpage.</li>
+          <li>The img element gives information about images that are displayed on the webpage.</li>
           <li>The src attribute defines the location/source of the image file.</li>
-          <li>The alt atrribute contains a text string that gives a description of the image.</li>
+          <li>The alt attribute contains a text string that gives a description of the image.</li>
           <li>The alt text is important for users who use assistive technologies like screen readers.</li>
         </ul>
       </section>
@@ -80,17 +80,69 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>Git is the most commonly used version control software.</li>
+          <li>Git allows you to keep track of each version of your product. We use the command line to access Git.Good for tracking changes locally on a personal computer.</li>
+          <li>Git commands always start with git and are used to save/track versions of our code.</li>
+          <li>Using Git commands we can create a repo, add code to the repo and view different versions of our code which are stored in a unique commit.</li>
+          <li>SHA or Hash is a unique identifier that provides a reference to that specific version of code so we can retrieve it as needed. A web interface of Git.</li>
+          <li>Only need the first 7 numbers/letters of the SHA/Hash to be able to retrieve it.</li>
+          <li>GitHub is a cloud based hosting service that allows us to keep track of our projects inside repositories aka repos</li>
+          <li>Easy to work collaboratively with others and store code.</li>
+          <li>A branch is a part of the workflow process. It is a workspace where you can make changes that dont affect the live site or the main branch.</li>
+          <li>A markdown (.md) file is the way content files are formatted in GitHub. A way to write for the web using plain text and easily converts to HTML. </li>
+          <li>Committing changes is saving a new version of a file. Add/Edit/Delete = making a commit.</li>
+          <li>Pull Request or PR is a way to discuss and review your work with others and have someone review these changes before being merged.</li>
+          <li>After getting approval on a PR you will merge the changes into the main branch. </li>
+          <li>An issue is a way to report new tasks or content fixes, track progress like a project board. Helps track work & make sure to close it once it is done. Often formatted in Markdown language.</li>
+          <li>When naming a new repo remember to be unique & descriptive, use all lower case letters and use dashes as we can use spaces in our repo names.</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git add -A: add command, adds modification in the current working branch. -A flag, shows we want to add all changes.</li>
           <li>git pull origin main: pull command to receive branches on the local environment.</li>
+          <li>git push origin feature : Pushes the changes we have locally to our remote branch.</li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>JavaScript is case sensitive so myVariable is not the same as myvariable. If there is a problem in your code, check the case.</li>
+          <li>A string is enclosed in quotation marks ” ”.</li>
+          <li>Numbers dont have quotation marks around them.</li>
+          <li>Boolean or True/False values dont need quotation marks around them either as they are special keywords.</li>
+          <li>Each line of JavaScript code ends with a semicolon ;.</li>
+          <li>An operator is a mathematical symbol that gives a result based on two values or variables. This can be addition, subtraction, multiplication or division. </li>
+          <li>Assigned a value to a variable with = Ex: MyVariable = 21.</li>
+          <li>Strict equality operator (===) Will check to see if two values are equal and will return a Boolean result of True if the values are equal and False if they are not equal.</li>
+          <li>Console.log is a method to output a message to the web console by adding an argument.It was created to be easier to test code.</li>
+          <li>In order to link a .js file you would link it inside the body element but using the link element.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>In JavaScript the code runs from the top to the bottom so order counts!</li>
+          <li>We define topics AFTER we tell the computer to log it in the console.</li>
+          <li>We need to be intentional in how we set up code in a JavaScript file.</li>
+          <li>Control flow can be interrupted with a conditional statement & loops to control if the code is executed or to control the order in which code is executed.</li>
+          <li>Conditional statements are code structures to test if an expression returns a true or not.</li>
+          <li>An if statement is a way of introducing decision making into our code. The code will only execute IF the statement meets a condition or if it is true.</li>
+          <li>A value is Falsy if it is one of these values: -0, On, “ “, null, undefined, NoN or a false Boolean.</li>
+          <li>A value is Truthy if it is any other value than above, including a true Boolean.</li>
+          <li>We can have more than one condition by using an else if statement.</li>
+          <li>The computer will continue through all of the conditions that we list. Once it finds a condition that is truthy it will run the code then break out of the if statement.</li>
+          <li>An array is a single variable that allows multiple values to be stored in it. They are typically related in some way.</li>
+          <li>Arrays are useful for storing multiple items with different data types in a single variable.</li>
+          <li>To locate individual data items inside an array we need to find the location of the data item in the array.</li>
+          <li>The location is identified with a unique number called an index.</li>
+          <li>In JavaScript arrays are zero-indexed & sequential which means the first item in an array has an index of 0</li>
+          <li>If we have 4 items in our array they will be 0,1,2,3.</li>
+          <li>Indices will always be whole numbers.</li>
+          <li>We can use less code with an array by using a for loop.</li>
+          <li>A for loop uses the pattern of the indices to do a task on all items in an array by a single code block being executed again and again.</li>
+          <li>To interrupt the control flow we must use the conditional if statement.</li>
+          <li>In order to use the array we need the index and the arrays length. The length is important because the for loop will need to know how many times to run the code until no items are left.</li>
+          <li>Easy to find the length by using the built in property called “length”.</li>
+          <li>Functions are a way of packaging functionality that you might want to reuse so you don't have to type the same code repeatedly.</li>
+          <li>If you see something that looks like a variable name followed by () it is most likely a function.</li>
+          <li>You must call a function by name in order to execute it.</li>
         </ul>
       </section>
     </main>
